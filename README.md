@@ -232,3 +232,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Built with ❤️ for the Financial Independence community**
 
 *Disclaimer: This tool is for educational and planning purposes only. Always consult with qualified financial advisors before making investment decisions.*
+
+
+financial-independence FIRE retirement-planning compound-interest lazy-portfolios stock-market live-data single-page-app HTML JavaScript personal-finance investing calculator
