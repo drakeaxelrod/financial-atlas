@@ -10,7 +10,7 @@
   <meta name="author" content="Drake Axelrod" />
 
   <!-- Favicon using FontAwesome calculator icon -->
-  <link rel="icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/svgs/solid/calculator.svg" type="image/svg+xml" />
+  <link rel="icon" href="https://raw.githubusercontent.com/drakeaxelrod/financial-atlas/refs/heads/main/piggybank.svg" type="image/svg+xml" />
 
 
     <!-- Essential CDNs Only -->
@@ -2431,8 +2431,8 @@
                                     React.createElement('i', { className: 'fas fa-calculator text-white text-lg' })
                                 ),
                                 React.createElement('div', null,
-                                    React.createElement('h1', { className: 'text-xl font-bold text-gray-900' }, 'Numbers'),
-                                    React.createElement('div', { className: 'text-xs text-gray-500' }, 'Financial Independence Calculator')
+                                    React.createElement('h1', { className: 'text-xl font-bold text-gray-900' }, 'Financial Atlas'),
+                                    React.createElement('div', { className: 'text-xs text-gray-500' }, 'Your Financial Independence & Retirement Planner')
                                 )
                             ),
                             React.createElement('div', { className: 'flex items-center space-x-4' },
@@ -5176,7 +5176,7 @@
                     market: 'Market Data',
                     settings: 'Settings'
                 };
-                document.title = `>Financial Atlas - ${tabNames[activeTab] || 'Your Financial Independence & Retirement Planner'}`;
+                document.title = `Financial Atlas - ${tabNames[activeTab] || 'Your Financial Independence & Retirement Planner'}`;
             }, [activeTab]);
 
             useEffect(() => {
